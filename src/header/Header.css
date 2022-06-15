@@ -6,14 +6,38 @@ header{
     text-align: center;
     padding: 15px;
 }
-
-.container-header:nth-child(1){
-    padding: 0 50px;
+#name{
+    font-size: 2.7em;
+    font-weight: 900;
+    font-family: var(--primary-font);
 }
-.container-header:nth-child(2){
-    color: red;
+
+.container-header{
+    padding: 10px 50px;
+}
+.header-paragraph {
+    padding: 5px;
+}
+.container__tech-logos{
+    max-width: 190px;
+    margin: 0 auto;
 }
 .tech-logos{
     width: 50px;
     padding: 5px;
+}
+.line{
+    display: inline-block;
+    width: 190px;
+    height: 2px;
+    background-color: #fff;
+    opacity: .4;
+    border-radius: 5em;
+}
+button{
+    margin: 10px;
+    border-radius: 5px;
+    width: 70px;
+    font-family: var(--primary-font);
+
 }
