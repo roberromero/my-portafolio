@@ -1,0 +1,19 @@
+header{
+    font-family: var(--primary-font);
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.container-header:nth-child(1){
+    padding: 0 50px;
+}
+.container-header:nth-child(2){
+    color: red;
+}
+.tech-logos{
+    width: 50px;
+    padding: 5px;
+}
