@@ -7,3 +7,6 @@ footer{
     margin: 5px;
     width: 25px;
 }
+footer > p{
+    font-size: .8em;
+}

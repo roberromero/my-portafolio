@@ -1,5 +1,6 @@
 //STYLES
 import './App.css';
+
 //IMAGES
 import html from './img/html5.png';
 import css from './img/css-3.png';
@@ -20,7 +21,7 @@ import Footer from './footer/Footer';
 function App() {
   const technologiesKnown = [html, css, js, atom, php, mysql];
   const technologiesInProgress = [redux, nodejs];
-
+  
 
   return (
     <div className="App">

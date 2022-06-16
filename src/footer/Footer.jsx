@@ -10,6 +10,7 @@ const Footer = () => {
       <img className='footer__contact-icon' src={github}/>
       <img className='footer__contact-icon' src={linkedin}/>
       <img className='footer__contact-icon' src={email}/>
+      <p> Work done by Roberto Romero</p>
     </footer>
   )
 }
