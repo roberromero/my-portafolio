@@ -1,5 +1,6 @@
 import React from 'react'
-
+import './Profile.css'
+import robertocv from '../cv/robertocv.pdf'
 const Profile = () => {
   return (
     <section className='profile'>
@@ -9,7 +10,7 @@ const Profile = () => {
         with experience in website design with strong creative
         and analytical skills.
       </p>
-      <button className='buttons'>Download CV</button>
+      <a href={robertocv} download={robertocv}><button className='buttons'>Download CV</button></a>
     </section>
   )
 }

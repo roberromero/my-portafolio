@@ -25,7 +25,7 @@ const Work = () => {
             scrum methodology and under the supervision of a CTO.
           </p>
       </div>
-      <p className="line" style={{backgroundColor:"black", margin:"45px"}}></p>
+      <p className="line" style={{backgroundColor:"black", marginBottom:"15px"}}></p>
     </section>
   )
 }

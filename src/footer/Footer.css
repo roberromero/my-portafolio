@@ -1,0 +1,9 @@
+footer{
+    background-color: black;
+    padding: 45px;
+    margin-top: 25px;
+}
+.footer__contact-icon{
+    margin: 5px;
+    width: 25px;
+}

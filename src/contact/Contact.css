@@ -30,3 +30,7 @@ form{
     border: 2px solid blue;
     cursor: pointer;
 }
+.contactIcon{
+    width: 20px;
+    margin-top: 20px;
+}
