@@ -1,5 +1,5 @@
 import React from 'react'
-import './Profile.css'
+
 const Profile = () => {
   return (
     <section className='profile'>
@@ -9,7 +9,7 @@ const Profile = () => {
         with experience in website design with strong creative
         and analytical skills.
       </p>
-      <button>Download CV</button>
+      <button className='buttons'>Download CV</button>
     </section>
   )
 }

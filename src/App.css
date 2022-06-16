@@ -10,6 +10,8 @@
     font-weight: 400;
     --primary-font: 'Playfair Display', serif;
     --secundary-font: 'Open Sans', sans-serif;
+    color: #787878;
+    font-family: 'Playfair Display', serif;
 }
 body{
 
@@ -22,3 +24,17 @@ body{
     text-align: center;
 }
 
+.title{
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.line{
+    display: inline-block;
+    width: 190px;
+    height: 2px;
+    background-color: #fff;
+    opacity: .4;
+    border-radius: 5em;
+}
