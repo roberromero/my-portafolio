@@ -21,7 +21,6 @@ import Footer from './Footer';
 function App() {
   const technologiesKnown = [html, css, js, atom, php, mysql];
   const technologiesInProgress = [redux, nodejs];
-  
 
   return (
     <div className="App">

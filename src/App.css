@@ -210,13 +210,30 @@ footer > p{
         width: 38em;
         position: relative;
     }
+    .header-paragraph{
+        font-size: 1.4em;
+    }
+    #name{
+        margin-bottom: 15px;
+    }
     .container-header{
         position: fixed;
         left:1.5em;
-        top: 9em;
+        top: 5em;
+    }
+    .profile-paragraph{
+        font-size: 1.2em;
+    }
+    .work__header-paragraph{
+        font-size: 1.7em;
+    }
+    .work__body-paragraph{
+        font-size: 1.2em;
     }
     .card-project{
         min-width: revert;
+        max-width: revert;
+        margin: 20px 40px;
     }
     .container__tech-logos{
         max-width: 260px;
@@ -226,12 +243,21 @@ footer > p{
     }
     footer{
         position: fixed;
-        left: -.4em;
-        top: 33em;
+        left: .8em;
+        top: 32em;
         background-color: transparent;
     }
+    footer >p {
+        font-size: 1.2em;
+    }
     .footer__contact-icon{
-        width: 65px;
+        width: 55px;
+    }
+    .footer__contact-icon:hover{
+        transform: scale(1.2);
+        transition-duration: .7s;
+        border-radius: 1em;
+        background-color: blue;
     }
     .main{
         width: 100%;
@@ -240,4 +266,6 @@ footer > p{
         width: 15%;
         margin-top: 2em;
     }
+
+
 }
