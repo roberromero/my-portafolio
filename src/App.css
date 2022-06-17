@@ -29,6 +29,35 @@ body{
     font-weight: 500;
     text-align: left;
 }
+/*HEADER*/
+header{
+    font-family: var(--primary-font);
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+#name{
+    font-size: 2.7em;
+    font-weight: 900;
+    font-family: var(--primary-font);
+}
+
+.container-header{
+    padding: 10px 20px;
+}
+.header-paragraph {
+    padding: 5px;
+}
+.container__tech-logos{
+    max-width: 190px;
+    margin: 0 auto;
+}
+.tech-logos{
+    width: 50px;
+    padding: 5px;
+}
 
 .line{
     display: inline-block;
@@ -37,4 +66,178 @@ body{
     background-color: #fff;
     opacity: .4;
     border-radius: 5em;
+}
+/*PROFILE*/
+
+.profile{
+    padding: 25px 0;
+}
+.profile-paragraph{
+    text-align: left;
+    margin: 10px 0;
+    font-size: .9em;
+}
+button{
+    margin: 10px;
+    border-radius: 5px;
+    width: 70px;
+    font-family: var(--primary-font);
+
+}
+
+.buttons{
+    margin: 5px 0;
+    background-color: transparent;
+    border: 2px solid;
+    width: 100%;
+    padding: 5px;
+    font-size: .8em;
+}
+.buttons:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+/*WORK*/
+.work{
+    display: grid;
+    grid-template-areas: "one" "two";
+}
+.card-project:nth-child(1){
+    grid-area: one;
+}
+.card-project:nth-child(2){
+    grid-area: two;
+}
+.card-project{
+    max-width: 30em;
+    min-width: 20em;
+    margin: 30px auto;
+}
+.card-project__img{
+    max-width: 100%;
+    border-radius: 0.37em;
+    box-shadow: 0px 0px 6px #777575;
+}
+.work__header-paragraph{
+    font-size: 1.1em;
+    text-align: left;
+    font-weight: 800;
+}
+.work__body-paragraph{
+    font-size: .9em;
+    text-align: left;
+}
+
+/*CONTACT*/
+
+form{
+    display: grid;
+    grid-template-areas: "one" "two" "three" "four";
+    margin: 10px auto;
+}
+.form-item{
+    border: none;
+    background-color: #dbdbdb;
+    font-size: .8em;
+    border-radius: .2em;
+    padding: 5px;
+}
+.form-item:nth-child(1){
+    grid-area: one;
+    margin: 15px 0;
+    height: 2.2em;
+}
+.form-item:nth-child(2){
+    margin-bottom: 15px;
+    height: 2.2em;
+    grid-area: two;
+}
+.form-item:nth-child(3){
+    grid-area: three;
+}
+.form-item:nth-child(4){
+    grid-area: four;
+}
+.contactIcon{
+    width: 20px;
+    margin-top: 20px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    padding: 45px;
+    margin-top: 25px;
+    text-align: center;
+}
+.footer__contact-icon{
+    margin: 10px;
+    width: 25px;
+}
+footer > p{
+    font-size: .8em;
+}
+
+@media only screen and (min-width:480px){
+    .work{
+        display: grid;
+        gap: 1.2em;
+        grid-template-areas: "one two";
+    }
+    .card-project{
+        min-width: revert;
+    }
+    .work__body-paragraph {
+        font-size: .7em;
+    }
+    .buttons{
+        display: block;
+        width: 40%;
+    }
+    
+}
+@media only screen and (min-width:980px){
+    .App{
+        display: flex;
+        position: relative;
+    }
+    .main{
+        min-height: 1000px;
+    }
+
+    header{
+        width: 38em;
+        position: relative;
+    }
+    .container-header{
+        position: fixed;
+        left:1.5em;
+        top: 9em;
+    }
+    .card-project{
+        min-width: revert;
+    }
+    .container__tech-logos{
+        max-width: 260px;
+    }
+    .tech-logos{
+        width: 70px;
+    }
+    footer{
+        position: fixed;
+        left: -.4em;
+        top: 33em;
+        background-color: transparent;
+    }
+    .footer__contact-icon{
+        width: 65px;
+    }
+    .main{
+        width: 100%;
+    }
+    .buttons{
+        width: 15%;
+        margin-top: 2em;
+    }
 }

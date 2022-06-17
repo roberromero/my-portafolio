@@ -12,11 +12,11 @@ import redux from './img/redux.svg';
 import nodejs from './img/nodejs.png';
 
 //COMPONENTS
-import Header from './header/Header';
-import Profile from './profile/Profile';
-import Work from './work/Work';
-import Contact from './contact/Contact';
-import Footer from './footer/Footer';
+import Header from './Header';
+import Profile from './Profile';
+import Work from './Work';
+// import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   const technologiesKnown = [html, css, js, atom, php, mysql];
@@ -30,9 +30,9 @@ function App() {
         <Profile />
         <h2 className='title'>Recent Work</h2>
         <Work />
-        <Contact />
-        <Footer />
+        {/* <Contact /> */}
       </div>
+      <Footer />
     </div>
   );
 }

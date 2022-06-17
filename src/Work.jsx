@@ -1,12 +1,10 @@
-import React from 'react'
-import './Work.css'
-import oxygen from './img/OxygenProject.png'
-import moviesearch from './img/movie-search.png'
+import oxygen from './img_work/OxygenProject.png'
+import moviesearch from './img_work/movie-search.png'
 
 const Work = () => {
   return (
     <section className='work'>
-      <div className='card-project'>
+      <article className='card-project'>
           <a>
             <img className='card-project__img' src={oxygen}/>
           </a>
@@ -15,8 +13,8 @@ const Work = () => {
             CSS and Vanilla JavaScript, no libraries have been used. Following the 
             scrum methodology and under the supervision of a CTO.
           </p>
-      </div>
-      <div className='card-project'>
+      </article>
+      <article className='card-project'>
           <a>
             <img className='card-project__img' src={moviesearch}/>
           </a>
@@ -25,8 +23,8 @@ const Work = () => {
             scrum methodology and under the supervision of a CTO. The OMDb API is used to obtain movie information.
             It has different functionalities such as add, delete and comment movies.
           </p>
-      </div>
-      <p className="line" style={{backgroundColor:"black", marginBottom:"15px"}}></p>
+      </article>
+      {/* <p className="line" style={{backgroundColor:"black", marginBottom:"15px"}}></p> */}
     </section>
   )
 }

@@ -1,13 +1,11 @@
-import React, { useState } from 'react'
-import './Header.css'
-
 
 const Header = ({technologiesKnown, technologiesInProgress}) => {
     
   return (
     <header>
-        <h1 id='name'>Roberto Romero</h1>
+        
         <div className='container-header'>
+            <h1 id='name'>Roberto Romero</h1>
             <p className='header-paragraph'>Known technologies</p>
             <div className='container__tech-logos'>
                 {technologiesKnown.map((img, index)=> {

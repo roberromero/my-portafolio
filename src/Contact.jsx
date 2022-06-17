@@ -1,8 +1,6 @@
-import React from 'react'
-import './Contact.css'
-import email from '../img/email.png';
-import smartphone from '../img/smartphone.png';
-import home from '../img/home.png';
+import email from './img/email.png';
+import smartphone from './img/smartphone.png';
+import home from './img/home.png';
 
 const Contact = () => {
   return (
