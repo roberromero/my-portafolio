@@ -12,6 +12,7 @@ const Profile = () => {
         and analytical skills.
       </p>
       <button className='buttons'><a href={robertocv}>Download CV</a></button>
+      <p id='line-profile'></p>
     </section>
   )
 }

@@ -2,11 +2,12 @@ import oxygen from './img_work/OxygenProject.png'
 import moviesearch from './img_work/movie-search.png'
 
 const Work = () => {
+
   return (
     <section className='work'>
       <article className='card-project'>
           <a>
-            <img className='card-project__img' src={oxygen}/>
+            <img className='card-project__img' src={oxygen} />
           </a>
           <h3 className='work__header-paragraph'>Oxygen Project</h3>
           <p className='work__body-paragraph'>This project was created from scratch using three technologies HTML, 

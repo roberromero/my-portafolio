@@ -238,6 +238,15 @@ footer > p{
     .profile-paragraph{
         font-size: 1.2em;
     }
+    #line-profile{
+        display: inline-block;
+        width: 92%;
+        height: 2px;
+        background-color: black;
+        opacity: .4;
+        border-radius: 5em;
+        margin: 35px 0 5px 0;
+    }
     .work__header-paragraph{
         font-size: 1.7em;
     }
@@ -248,6 +257,11 @@ footer > p{
         min-width: revert;
         max-width: revert;
         margin: 20px 40px;
+    }
+
+    .card-project__img:hover{
+        opacity: .7;
+        cursor: pointer;
     }
     .container__tech-logos{
         max-width: 150px;
@@ -272,7 +286,8 @@ footer > p{
         transform: scale(1.2);
         transition-duration: .7s;
         border-radius: 1em;
-        background-color: #8B008B;
+        background-color: rgb(128,0,128);
+        opacity: .5;
     }
     .main{
         width: 100%;
