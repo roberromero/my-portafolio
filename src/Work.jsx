@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <section className='work'>
       <article className='card-project'>
-          <a>
+          <a href='https://roberromero.github.io/proyectoOxygen/'>
             <img className='card-project__img' src={oxygen} />
           </a>
           <h3 className='work__header-paragraph'>Oxygen Project</h3>
@@ -16,7 +16,7 @@ const Work = () => {
           </p>
       </article>
       <article className='card-project'>
-          <a>
+          <a href='https://roberromero.github.io/movie-search/'>
             <img className='card-project__img' src={moviesearch}/>
           </a>
           <h3 className='work__header-paragraph'>Movie-search-engine</h3>
