@@ -20,6 +20,7 @@ body{
     
     }
 .App{
+    background-color: #210b78;
     background-image: url('./img/backg.jpg');
     background-size: cover;
     background-position: center center;
