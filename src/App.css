@@ -231,6 +231,9 @@ footer > p{
     .profile-paragraph{
         font-size: 1.2em;
     }
+    .work{
+        gap: 2em;
+    }
     .work__header-paragraph{
         font-size: 1.7em;
     }
@@ -240,7 +243,7 @@ footer > p{
     .card-project{
         min-width: revert;
         max-width: revert;
-        margin: 20px 40px;
+        
     }
 
     .card-project__img:hover{

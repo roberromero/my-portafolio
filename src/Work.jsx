@@ -1,4 +1,4 @@
-import oxygen from './img_work/OxygenProject.png'
+import oxygen from './img_work/oxygenProject.png'
 import moviesearch from './img_work/movie-search.png'
 
 const Work = () => {
