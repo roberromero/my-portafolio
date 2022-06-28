@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/my-portafolio/static/css/main.46510177.css",
-    "main.js": "/my-portafolio/static/js/main.dd6ac9f6.js",
+    "main.js": "/my-portafolio/static/js/main.e1b7197c.js",
     "static/media/movie-search.png": "/my-portafolio/static/media/movie-search.f89562866f53b41b8af8.png",
     "static/media/oxygenProject.png": "/my-portafolio/static/media/oxygenProject.8feb7e5da5af74b4394e.png",
     "static/media/ojala-academy.png": "/my-portafolio/static/media/ojala-academy.b2e91b2b99e192fe42f7.png",
     "static/media/backg.jpg": "/my-portafolio/static/media/backg.97bcc383972b67ecc7fd.jpg",
     "static/media/atom.png": "/my-portafolio/static/media/atom.c223d41ae54d1d5c58ef.png",
+    "static/media/toDoList.png": "/my-portafolio/static/media/toDoList.ff9012dab5484ca7abd6.png",
     "static/media/robertocv.pdf": "/my-portafolio/static/media/robertocv.e2e3dd0a245f407099c1.pdf",
     "static/media/mysql.png": "/my-portafolio/static/media/mysql.bdbd1eb709e4c13258d2.png",
     "static/media/nodejs.png": "/my-portafolio/static/media/nodejs.007e99f68b718e476aba.png",
@@ -16,10 +17,10 @@
     "static/media/redux.svg": "/my-portafolio/static/media/redux.71eb13e2fdd1de624e9a856125906e3b.svg",
     "index.html": "/my-portafolio/index.html",
     "main.46510177.css.map": "/my-portafolio/static/css/main.46510177.css.map",
-    "main.dd6ac9f6.js.map": "/my-portafolio/static/js/main.dd6ac9f6.js.map"
+    "main.e1b7197c.js.map": "/my-portafolio/static/js/main.e1b7197c.js.map"
   },
   "entrypoints": [
     "static/css/main.46510177.css",
-    "static/js/main.dd6ac9f6.js"
+    "static/js/main.e1b7197c.js"
   ]
 }
