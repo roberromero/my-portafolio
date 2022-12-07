@@ -1,4 +1,4 @@
-import robertocv from './cv/CV_ROBERTO.png'
+import robertocv from './CV_ROBERTO.png'
 
 const Profile = () => {
 
