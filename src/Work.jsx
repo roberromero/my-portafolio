@@ -29,18 +29,6 @@ const Work = () => {
           </p>
       </article>
       <article className='card-project'>
-          <a href='https://ojala-spanishacademy.co.uk/'>
-            <img className='card-project__img' src={ojalaAcademy}/>
-          </a>
-          <h3 className='work__header-paragraph'>Ojalá Spanish Academy</h3>
-          <p className='work__body-paragraph'>This project was created using 
-          Godaddy Website Builder. It may not serve to show my skills as a programmer, but 
-          it does show my other facet, as a entrepreneur. That is how I currently make a living. 
-          I have this small company, I manage and organize it 
-          myself with the help of collaborators. I teach and deal with clients and their needs.
-          </p>
-      </article>
-      <article className='card-project'>
           <a href='#'>
             <img className='card-project__img' src={coCalories}/>
           </a>
@@ -58,6 +46,18 @@ const Work = () => {
           <p className='work__body-paragraph'>This a Blog created using technologies such as Bootstrap, Vainilla JavaScript, PHP and MySQL.
           There are three relational tables in the database.
           The user can sign up, sign in, add posts, edit posts and delete them. This app also stores files.         
+          </p>
+      </article>
+      <article className='card-project'>
+          <a href='https://ojala-spanishacademy.co.uk/'>
+            <img className='card-project__img' src={ojalaAcademy}/>
+          </a>
+          <h3 className='work__header-paragraph'>Ojalá Spanish Academy</h3>
+          <p className='work__body-paragraph'>This project was created using 
+          Godaddy Website Builder. It may not serve to show my skills as a programmer, but 
+          it does show my other facet, as a entrepreneur. That is how I currently make a living. 
+          I have this small company, I manage and organize it 
+          myself with the help of collaborators. I teach and deal with clients and their needs.
           </p>
       </article>
       <article className='card-project'>
