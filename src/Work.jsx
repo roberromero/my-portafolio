@@ -29,7 +29,7 @@ const Work = () => {
           </p>
       </article>
       <article className='card-project'>
-          <a href='#'>
+          <a href='https://github.com/roberromero/co-calories_app'>
             <img className='card-project__img' src={coCalories}/>
           </a>
           <h3 className='work__header-paragraph'>Co-Calories App</h3>
@@ -39,7 +39,7 @@ const Work = () => {
           </p>
       </article>
       <article className='card-project'>
-          <a href='#'>
+          <a href='https://github.com/roberromero/blog_php'>
             <img className='card-project__img' src={blogPhp}/>
           </a>
           <h3 className='work__header-paragraph'>Blog</h3>
