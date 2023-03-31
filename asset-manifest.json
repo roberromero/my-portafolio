@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/my-portafolio/static/css/main.46510177.css",
-    "main.js": "/my-portafolio/static/js/main.0688f888.js",
+    "main.js": "/my-portafolio/static/js/main.c01580a8.js",
     "static/media/movie-search.png": "/my-portafolio/static/media/movie-search.f89562866f53b41b8af8.png",
     "static/media/oxygenProject.png": "/my-portafolio/static/media/oxygenProject.8feb7e5da5af74b4394e.png",
+    "static/media/co-calories.png": "/my-portafolio/static/media/co-calories.7a01cd3a37a42e93d12a.png",
+    "static/media/blog_php.png": "/my-portafolio/static/media/blog_php.43f97b970067af8a76b4.png",
     "static/media/ojala-academy.png": "/my-portafolio/static/media/ojala-academy.b2e91b2b99e192fe42f7.png",
-    "static/media/CV_ROBERTO.png": "/my-portafolio/static/media/CV_ROBERTO.bf959ccab7043f98889a.png",
     "static/media/backg.jpg": "/my-portafolio/static/media/backg.97bcc383972b67ecc7fd.jpg",
     "static/media/atom.png": "/my-portafolio/static/media/atom.c223d41ae54d1d5c58ef.png",
     "static/media/toDoList.png": "/my-portafolio/static/media/toDoList.ff9012dab5484ca7abd6.png",
+    "static/media/cv_roberto.pdf": "/my-portafolio/static/media/cv_roberto.d29ab380ef97b6f0c2a0.pdf",
     "static/media/mysql.png": "/my-portafolio/static/media/mysql.bdbd1eb709e4c13258d2.png",
     "static/media/nodejs.png": "/my-portafolio/static/media/nodejs.007e99f68b718e476aba.png",
     "static/media/php.png": "/my-portafolio/static/media/php.c67d24b47808dc6611ed.png",
@@ -17,10 +19,10 @@
     "static/media/redux.svg": "/my-portafolio/static/media/redux.71eb13e2fdd1de624e9a856125906e3b.svg",
     "index.html": "/my-portafolio/index.html",
     "main.46510177.css.map": "/my-portafolio/static/css/main.46510177.css.map",
-    "main.0688f888.js.map": "/my-portafolio/static/js/main.0688f888.js.map"
+    "main.c01580a8.js.map": "/my-portafolio/static/js/main.c01580a8.js.map"
   },
   "entrypoints": [
     "static/css/main.46510177.css",
-    "static/js/main.0688f888.js"
+    "static/js/main.c01580a8.js"
   ]
 }
