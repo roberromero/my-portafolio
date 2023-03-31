@@ -2,6 +2,9 @@ import oxygen from './img_work/oxygenProject.png'
 import moviesearch from './img_work/movie-search.png'
 import ojalaAcademy from './img_work/ojala-academy.png'
 import toDoList from './img_work/toDoList.png'
+import coCalories from './img_work/co-calories.png'
+import blogPhp from './img/blog_php.png'
+
 const Work = () => {
 
   return (
@@ -36,6 +39,26 @@ const Work = () => {
           it does show my other facet, as a entrepreneur. That is how I currently make a living. 
           I have this small company, I manage and organize it 
           myself with the help of collaborators. I teach and deal with clients and their needs.
+          </p>
+      </article>
+      <article className='card-project'>
+          <a href='#'>
+            <img className='card-project__img' src={coCalories}/>
+          </a>
+          <h3 className='work__header-paragraph'>Co-Calories App</h3>
+          <p className='work__body-paragraph'>This a Web Application created using technologies such as CSS, React, PHP and MySQL.
+          The user can search for recipes and save them permanently.
+          It gets recipes information from "spoonacular" API.          
+          </p>
+      </article>
+      <article className='card-project'>
+          <a href='#'>
+            <img className='card-project__img' src={blogPhp}/>
+          </a>
+          <h3 className='work__header-paragraph'>Blog</h3>
+          <p className='work__body-paragraph'>This a Blog created using technologies such as Bootstrap, Vainilla JavaScript, PHP and MySQL.
+          There are three relational tables in the database.
+          The user can sign up, sign in, add posts, edit posts and delete them. This app also stores files.         
           </p>
       </article>
       <article className='card-project'>
