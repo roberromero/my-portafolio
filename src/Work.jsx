@@ -2,6 +2,8 @@ import oxygen from './img_work/oxygenProject.png'
 import moviesearch from './img_work/movie-search.png'
 import ojalaAcademy from './img_work/ojala-academy.png'
 import toDoList from './img_work/toDoList.png'
+import coCalories from './img_work/co-calories.png' 
+import blogPhp from './img_work/blog_php.png'
 const Work = () => {
 
   return (
