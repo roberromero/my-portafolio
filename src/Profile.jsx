@@ -18,7 +18,7 @@ const Profile = () => {
         and that appear in the header, I am also familiarised with technologies 
         such as XML, XHTML, JUnit, JQuery, Ajax, Java, C#, XAMPP, etc.
       </p>
-      <button className='buttons'><a href={robertocv}>Download CV</a></button>
+      <button className='buttons'><a href={robertocv} download>Download CV</a></button>
     </section>
   )
 }
