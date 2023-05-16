@@ -6,11 +6,12 @@ import html from './img/html5.png';
 import css from './img/css-3.png';
 import js from './img/js.png';
 import atom from './img/atom.png';
+import vue from './img/vue.png';
 import php from './img/php.png';
 import mysql from './img/mysql.png';
-import redux from './img/redux.svg';
-import nodejs from './img/nodejs.png';
-
+// import redux from './img/redux.svg';
+// import nodejs from './img/nodejs.png';
+import laravel from './img/laravel.png';
 //COMPONENTS
 import Header from './Header';
 import Profile from './Profile';
@@ -19,8 +20,8 @@ import Work from './Work';
 import Footer from './Footer';
 
 function App() {
-  const technologiesKnown = [html, css, js, atom, php, mysql];
-  const technologiesInProgress = [redux, nodejs];
+  const technologiesKnown = [html, css, js, atom, vue, php, mysql];
+  const technologiesInProgress = [laravel];
 
   return (
     <div className="App">

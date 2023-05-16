@@ -16,7 +16,7 @@ const Header = ({technologiesKnown, technologiesInProgress}) => {
             <p className='header-paragraph'>Learning ...</p>
             <div className='container__tech-logos'>
             {technologiesInProgress.map((img, index)=> {
-                        return <img className='tech-logos' src={img} key={index}/>
+                        return <img className='tech-logos tech-logos__inprogress' src={img} key={index}/>
                 })}
             </div>
         </div>

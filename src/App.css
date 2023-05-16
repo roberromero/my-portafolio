@@ -137,6 +137,7 @@ button{
 .work__body-paragraph{
     font-size: 1.3em;
     text-align: left;
+    padding-top: 1em;
 }
 
 /*CONTACT*/
@@ -256,6 +257,11 @@ footer > p{
     }
     .tech-logos{
         width: 50px;
+    }
+    .tech-logos__inprogress{
+        border-radius: 50%;
+        background-color: white;
+        padding: 1px;
     }
     footer{
         position: fixed;
