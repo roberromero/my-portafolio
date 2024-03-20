@@ -12,6 +12,7 @@ import mysql from './img/mysql.png';
 // import redux from './img/redux.svg';
 // import nodejs from './img/nodejs.png';
 import laravel from './img/laravel.png';
+import docker from './img/docker.png';
 //COMPONENTS
 import Header from './Header';
 import Profile from './Profile';
@@ -20,8 +21,8 @@ import Work from './Work';
 import Footer from './Footer';
 
 function App() {
-  const technologiesKnown = [html, css, js, atom, vue, php, mysql];
-  const technologiesInProgress = [laravel];
+  const technologiesKnown = [html, css, js, atom, vue, php, laravel, mysql];
+  const technologiesInProgress = [docker];
 
   return (
     <div className="App">
